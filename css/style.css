@@ -33,4 +33,35 @@
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  border: 1px solid var(--branding-secondary-color);
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background: var(--branding-color);
+  color: var(--branding-secondary-color);
+  border: 1px solid var(--branding-secondary-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
