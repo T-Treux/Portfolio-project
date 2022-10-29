@@ -63,7 +63,8 @@ body {
 
 h1,
 p,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font-family);
   color: var(--branding-color);
 }
@@ -82,7 +83,17 @@ h2 {
 }
 
 .img-fluid {
-  max-width: 75%;
+  max-width: 100%;
+}
+
+.contact-page,
+h3,
+p {
+  text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 64px;
 }
 
 @media (max-width: 900px) {
