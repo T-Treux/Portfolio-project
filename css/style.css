@@ -147,7 +147,11 @@ h1 {
   font-family: var(--default-font-family);
 }
 
-h1,
+h1 {
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+}
+
 p,
 h2,
 h3 {
